@@ -1,0 +1,41 @@
+.home{
+    height: 100vh;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+    width: 100%;
+    /* padding: 20px; */
+}
+.find-btn{
+    background-color: #6366f1;
+    padding: 15px 25px 15px 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    align-self: flex-start;
+}
+.btn-link{
+    color: #ffffff;
+    text-decoration: none;
+}
+.home-card{
+    padding: 50px 0px 0px 100px;
+    /* width: 60%; */
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+.home-head{
+    color: #ffffff;
+    font-size: 80px;
+    width: 60%;
+}
+.home-para{
+    width: 60%;
+    color: #dad3d3;
+    font-size: 25px;
+    margin: 20px 0px 20px 0px;
+}

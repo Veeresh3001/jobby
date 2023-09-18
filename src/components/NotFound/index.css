@@ -1,0 +1,22 @@
+.notfound{
+    background-color: #000000;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+.notfound-img{
+    width: 300px;
+    margin: 20px;
+}
+.notfound-head{
+    margin: 10px;
+    color: #ffffff;
+    font-size: 23px;
+}
+.notfound-para{
+    color: #ffffff;
+    font-size: 18px;
+}

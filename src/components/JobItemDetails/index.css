@@ -1,0 +1,107 @@
+
+.details-card{
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    width: 100%;
+    flex-direction: column;
+    min-height: 90vh;
+    padding: 40px 100px 40px 100px;
+}
+.similar-head{
+    color: #ffffff;
+    font-size: 24px;
+}
+.similar-card{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0px;
+}
+.life{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+.life-card{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.life-para{
+    color: #afa3a3;
+    font-size: 20px;
+    width: 60%;
+}
+.life-card img{
+    width: 30%;
+    border-radius: 10px;
+}
+.skills-card{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 0px;
+}
+.skills-card li{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 15px;
+}
+.skills-card li p{
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+.skills-head{
+    margin: 10px 0px 10px 0px;
+    font-size: 24px;
+}
+.visit-card{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin: 10px 0px 10px 0px;
+}
+.visit-card a{
+    display: flex;
+    align-items: center;
+    color: #4f46e5;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.job-details{
+    color: #f1e9e9;
+    background-color: #272727;
+    border-radius: 10px;
+    list-style-type: none;
+    padding: 15px 20px 15px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.jobs-fail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 80vh;
+}
+.jobs-fail img{
+    width: 300px;
+}
+.jobs-fail h1{
+    color: #ffffff;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.jobs-fail p{
+    margin-bottom: 15px;
+    color: #c6c6ce;
+}
